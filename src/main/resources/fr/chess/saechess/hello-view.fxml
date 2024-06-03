@@ -7,6 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
 <HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="fr.chess.saechess.HelloController">
   <padding>
@@ -18,16 +19,94 @@
 
     <!-- Création de nom et Timer 1 -->
     <HBox>
+      <Label text="Cedric"> </Label>
+      <Label text="10 min"> </Label>
 
     </HBox>
 
     <!-- Création de l'échiquier 8x8 -->
-    <GridPane>
+    <GridPane fx:id="chessBoard">
+      <children>
+        <!-- Création des cases de l'échiquier -->
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="0" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="1" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="2" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="3" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="4" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="5" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="6" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="7" width="60" height="60" fill="black"/>
 
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="0" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="1" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="2" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="3" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="4" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="5" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="6" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="7" width="60" height="60" fill="white"/>
+
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="0" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="1" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="2" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="3" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="4" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="5" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="6" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="7" width="60" height="60" fill="black"/>
+
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="0" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="1" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="2" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="3" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="4" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="5" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="6" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="7" width="60" height="60" fill="white"/>
+
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="0" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="1" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="2" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="3" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="4" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="5" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="6" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="7" width="60" height="60" fill="black"/>
+
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="0" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="1" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="2" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="3" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="4" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="5" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="6" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="7" width="60" height="60" fill="white"/>
+
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="0" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="1" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="2" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="3" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="4" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="5" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="6" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="7" width="60" height="60" fill="black"/>
+
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="0" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="1" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="2" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="3" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="4" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="5" width="60" height="60" fill="white"/>
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="6" width="60" height="60" fill="black"/>
+        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="7" width="60" height="60" fill="white"/>
+
+      </children>
     </GridPane>
 
     <!-- Création de nom et Timer 2 -->
     <HBox>
+      <Label text="Zakharia"> </Label>
+      <Label text="10 min"> </Label>
 
     </HBox>
 
