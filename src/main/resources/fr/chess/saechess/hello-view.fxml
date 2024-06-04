@@ -23,7 +23,7 @@
             <HBox.margin>
                <Insets right="400.0" />
             </HBox.margin></Label>
-      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10 min" textFill="WHITE"> </Label>
+      <Label fx:id="timerLabelN" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
 
     </HBox>
 
@@ -132,7 +132,7 @@
             <HBox.margin>
                <Insets right="400.0" />
             </HBox.margin></Label>
-      <Label text="10 min" textFill="WHITE"> </Label>
+        <Label fx:id="timerLabelB" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
 
     </HBox>
 
@@ -166,7 +166,7 @@
       </items>
     </SplitMenuButton>
 
-      <SplitMenuButton style="-fx-background-color: Grey; -fx-content-display: Grey;" text="choissie le temps de jeux ">
+      <SplitMenuButton style="-fx-background-color: Grey;" text="choissie le temps de jeux ">
           <items>
               <MenuItem text="10 min" />
               <MenuItem text="30 min" />

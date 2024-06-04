@@ -11,7 +11,7 @@ public class Minuteur {
     private JLabel timeLabel;
 
     public Minuteur() {
-        seconds = 3;
+        seconds = 10;
         minutes = 0;
         hours = 0;
 
