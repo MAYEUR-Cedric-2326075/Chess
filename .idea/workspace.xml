@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="" />
+    <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/home.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/amuhome/m23004345/IHM/SAE-Chess",
+    "last_opened_file_path": "/amuhome/m23004345/IHM/SAE-Chess/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -134,6 +137,14 @@
       <workItem from="1717414672655" duration="6999000" />
       <workItem from="1717500353960" duration="1218000" />
     </task>
+    <task id="LOCAL-00001" summary="merge fini">
+      <created>1717506744605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717506744605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
