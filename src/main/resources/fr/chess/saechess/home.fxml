@@ -40,9 +40,9 @@
   </VBox>
 
   <!-- Création partie droite de page accueil -->
-  <VBox style="-fx-background-color: blue; -; -fx-spacing: 1;">
-    <Label style="-fx-font-size: 18;" text="Bienvenue sur chess.com" />
-    <Label text="choisiser votre mode de jeux:" />
+  <VBox style="-fx-background-color: black;-fx-spacing: 1;">
+    <Label text="Bienvenue sur chess.com" textFill="WHITE" ></Label>
+
     <SplitMenuButton text="choissie un mod de jeux ">
       <items>
         <MenuItem text="player vs player"></MenuItem>

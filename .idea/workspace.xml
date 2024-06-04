@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +18,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -83,11 +90,23 @@
       <workItem from="1717414990402" duration="5743000" />
       <workItem from="1717420754539" duration="338000" />
       <workItem from="1717421521617" duration="635000" />
-      <workItem from="1717500378190" duration="1311000" />
+      <workItem from="1717500378190" duration="3143000" />
     </task>
+    <task id="LOCAL-00001" summary="rajout d'un menu dérouant pour les mode de jeux">
+      <created>1717501859777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717501859777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rajout d'un menu dérouant pour les mode de jeux" />
+    <option name="LAST_COMMIT_MESSAGE" value="rajout d'un menu dérouant pour les mode de jeux" />
   </component>
 </project>
