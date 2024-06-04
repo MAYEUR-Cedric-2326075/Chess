@@ -15,7 +15,10 @@ public class HelloApplication extends Application {
         stage.setTitle("Chess_play");
         stage.setScene(scene);
         stage.show();
+
+
     }
+
 
     public static void main(String[] args) {
         launch();

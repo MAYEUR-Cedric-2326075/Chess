@@ -7,7 +7,7 @@
     <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <workItem from="1717414990402" duration="5743000" />
       <workItem from="1717420754539" duration="338000" />
       <workItem from="1717421521617" duration="635000" />
-      <workItem from="1717500378190" duration="3143000" />
+      <workItem from="1717500378190" duration="5277000" />
     </task>
     <task id="LOCAL-00001" summary="rajout d'un menu dérouant pour les mode de jeux">
       <created>1717501859777</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717501859777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changement de la couleur du texte">
+      <created>1717503842923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717503842923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rajout d'un menu dérouant pour les mode de jeux" />
-    <option name="LAST_COMMIT_MESSAGE" value="rajout d'un menu dérouant pour les mode de jeux" />
+    <MESSAGE value="changement de la couleur du texte" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement de la couleur du texte" />
   </component>
 </project>
