@@ -159,24 +159,24 @@
             <Font name="Abyssinica SIL" size="17.0" />
          </font></Label>
 
-    <SplitMenuButton style="-fx-background-color: Grey;" text="choissie un mod de jeux ">
+    <SplitMenuButton fx:id="menu1" style="-fx-background-color: Grey;" text="choisir un mode de jeux ">
       <items>
-        <MenuItem text="player vs player" />
-        <MenuItem text="player vs bot" />
+        <MenuItem text="player vs player" onAction="#pvp"/>
+        <MenuItem text="player vs bot" onAction="#pve"/>
       </items>
     </SplitMenuButton>
 
-      <SplitMenuButton style="-fx-background-color: Grey;" text="choissie le temps de jeux ">
+      <SplitMenuButton fx:id="menu2" style="-fx-background-color: Grey;" text="choisir le temps de jeux ">
           <items>
-              <MenuItem text="10 min" />
-              <MenuItem text="30 min" />
+              <MenuItem text="10 min" onAction="#time1"/>
+              <MenuItem text="30 min" onAction="#time2"/>
           </items>
          <VBox.margin>
             <Insets top="40.0" />
          </VBox.margin>
       </SplitMenuButton>
 
-    <Button alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Jouer" textAlignment="CENTER" textFill="WHITE">
+    <Button onAction="#btnJouer" alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Jouer" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Arimo Bold" size="26.0" />
          </font>
