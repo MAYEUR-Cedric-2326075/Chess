@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.control.SplitMenuButton?>
-<?import javafx.scene.control.MenuItem?>
-<HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="fr.chess.saechess.HelloController">
+<HBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #262523" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.chess.saechess.HelloController">
   <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
 
   <!-- Création partie gauche de page accueil -->
   <VBox>
 
     <!-- Création de nom et Timer 1 -->
-    <HBox>
-      <Label text="Cedric"> </Label>
-      <Label text="10 min"> </Label>
+    <HBox alignment="CENTER">
+      <Label text="Cedric" textFill="WHITE">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <HBox.margin>
+               <Insets right="400.0" />
+            </HBox.margin></Label>
+      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10 min" textFill="WHITE"> </Label>
 
     </HBox>
 
@@ -30,105 +31,158 @@
     <GridPane fx:id="chessBoard">
       <children>
         <!-- Création des cases de l'échiquier -->
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="0" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="1" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="2" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="3" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="4" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="5" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="6" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="0" GridPane.columnIndex="7" width="60" height="60" fill="#739552"/>
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="0" />
 
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="0" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="1" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="2" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="3" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="4" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="5" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="6" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="1" GridPane.columnIndex="7" width="60" height="60" fill="#EBECD0"/>
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="1" />
 
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="0" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="1" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="2" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="3" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="4" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="5" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="6" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="2" GridPane.columnIndex="7" width="60" height="60" fill="#739552"/>
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="2" />
 
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="0" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="1" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="2" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="3" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="4" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="5" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="6" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="3" GridPane.columnIndex="7" width="60" height="60" fill="#EBECD0"/>
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="3" />
 
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="0" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="1" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="2" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="3" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="4" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="5" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="6" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="4" GridPane.columnIndex="7" width="60" height="60" fill="#739552"/>
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="4" />
 
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="0" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="1" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="2" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="3" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="4" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="5" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="6" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="5" GridPane.columnIndex="7" width="60" height="60" fill="#EBECD0"/>
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="5" />
 
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="0" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="1" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="2" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="3" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="4" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="5" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="6" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="6" GridPane.columnIndex="7" width="60" height="60" fill="#739552"/>
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="6" />
 
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="0" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="1" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="2" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="3" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="4" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="5" width="60" height="60" fill="#EBECD0"/>
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="6" width="60" height="60" fill="#739552"/>
-        <Rectangle GridPane.rowIndex="7" GridPane.columnIndex="7" width="60" height="60" fill="#EBECD0"/>
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="7" />
 
       </children>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
     </GridPane>
 
     <!-- Création de nom et Timer 2 -->
     <HBox>
-      <Label text="Zakharia"> </Label>
-      <Label text="10 min"> </Label>
+      <Label text="Zakharia" textFill="WHITE">
+            <HBox.margin>
+               <Insets right="400.0" />
+            </HBox.margin></Label>
+      <Label text="10 min" textFill="WHITE"> </Label>
 
     </HBox>
 
   </VBox>
 
   <!-- Création partie droite de page accueil -->
-  <VBox style="-fx-background-color: black;-fx-spacing: 1;">
-    <Label text="Bienvenue sur chess.com" textFill="WHITE"/>
+  <VBox alignment="TOP_CENTER">
+      <HBox>
+          <Label text="Nouvelle partie" textFill="WHITE" />
+          <Label text="Parties" textFill="WHITE">
+            <HBox.margin>
+               <Insets left="20.0" right="20.0" />
+            </HBox.margin></Label>
+          <Label text="Joueurs" textFill="WHITE" />
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+      </HBox>
+    <Label text="Bienvenue sur chess.com !" textFill="WHITE">
+         <padding>
+            <Insets bottom="15.0" />
+         </padding>
+         <font>
+            <Font name="Abyssinica SIL" size="17.0" />
+         </font></Label>
 
-
-
-    <SplitMenuButton text="choissie un mod de jeux ">
-      <padding>
-        <Insets top="200.0" />
-      </padding>
+    <SplitMenuButton style="-fx-background-color: Grey;" text="choissie un mod de jeux ">
       <items>
         <MenuItem text="player vs player" />
         <MenuItem text="player vs bot" />
       </items>
     </SplitMenuButton>
+
+      <SplitMenuButton style="-fx-background-color: Grey; -fx-content-display: Grey;" text="choissie le temps de jeux ">
+          <items>
+              <MenuItem text="10 min" />
+              <MenuItem text="30 min" />
+          </items>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </SplitMenuButton>
+
+    <Button alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Jouer" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arimo Bold" size="26.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+         </VBox.margin></Button>
 
   </VBox>
 
