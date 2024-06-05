@@ -32,6 +32,7 @@
 
     <!-- Création de l'échiquier 8x8 -->
     <GridPane fx:id="chessBoard">
+
       <children>
         <!-- Création des cases de l'échiquier -->
         <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="0" />
@@ -126,11 +127,11 @@
             <RowConstraints />
             <RowConstraints />
          </rowConstraints>
-
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="pawn" layoutX="100.0" layoutY="100.0" fitWidth="50" fitHeight="50" pickOnBounds="true" preserveRatio="true">
+            <Image url="@pion.png"/>
+        </ImageView>
     </GridPane>
-      <ImageView fx:id="pawn" layoutX="100.0" layoutY="100.0" fitWidth="50" fitHeight="50" pickOnBounds="true" preserveRatio="true">
-          <Image url="@pion.png"/>
-      </ImageView>
+
 
     <!-- Création de nom et Timer 2 -->
     <HBox>
