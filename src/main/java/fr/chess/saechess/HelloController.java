@@ -87,14 +87,23 @@ public class HelloController {
         // Ajouter un écouteur d'événements de clic de souris pour déplacer le pion
         pawn.setOnMousePressed(event -> pawn.setOpacity(0.5));
         pawn.setOnMouseReleased(event -> pawn.setOpacity(1));
-
         pawn.setOnMouseClicked(event -> {
+
+
+            // Déplacer le pion d'une cellule vers la droite
+            int colIndex = GridPane.getColumnIndex(pawn);
+            int rowIndex = GridPane.getRowIndex(pawn);
+            colIndex++;
+
+            // Déplacer le pion d'une cellule vers le bas
+             rowIndex++;
             // Récupérer les coordonnées de la cellule de la grille où l'utilisateur a cliqué
             int clickedColIndex = (int) (event.getX() / chessBoard.getWidth() * chessBoard.getColumnCount());
             int clickedRowIndex = (int) (event.getY() / chessBoard.getHeight() * chessBoard.getRowCount());
 
             // Déplacer le pion vers la cellule de la grille où l'utilisateur a cliqué
             movePawnTo(clickedColIndex, clickedRowIndex);
+            movePawnTo(colIndex, rowIndex);
         });
     }
 

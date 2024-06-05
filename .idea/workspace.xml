@@ -149,7 +149,7 @@
       <workItem from="1717500353960" duration="1218000" />
       <workItem from="1717508438207" duration="5575000" />
       <workItem from="1717514644991" duration="334000" />
-      <workItem from="1717568270853" duration="12814000" />
+      <workItem from="1717568270853" duration="13659000" />
     </task>
     <task id="LOCAL-00001" summary="merge fini">
       <created>1717506744605</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717577128705</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modifications d'u déplacemnt">
+      <created>1717581611454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717581611454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +220,7 @@
     <MESSAGE value="ajout de pion est de déplacemnt" />
     <MESSAGE value="piont apparations" />
     <MESSAGE value=" sur la case 0;0" />
-    <option name="LAST_COMMIT_MESSAGE" value=" sur la case 0;0" />
+    <MESSAGE value="modifications d'u déplacemnt" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifications d'u déplacemnt" />
   </component>
 </project>
