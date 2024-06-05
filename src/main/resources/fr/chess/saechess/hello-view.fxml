@@ -197,6 +197,24 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
          </VBox.margin></Button>
 
+      <Button onAction="#stopTime" alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Stop" textAlignment="CENTER" textFill="WHITE">
+          <font>
+              <Font name="Arimo Bold" size="26.0" />
+          </font>
+          <VBox.margin>
+              <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+          </VBox.margin></Button>
+
+      <Button onAction="#TimeResume" alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Reprise" textAlignment="CENTER" textFill="WHITE">
+          <font>
+              <Font name="Arimo Bold" size="26.0" />
+          </font>
+          <VBox.margin>
+              <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+          </VBox.margin></Button>
+
+
+
   </VBox>
 
 </HBox>
