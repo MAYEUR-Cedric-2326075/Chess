@@ -22,15 +22,16 @@
             <Image url="pdp1.png"/>
         </ImageView>
       <Label text="Cedric" textFill="WHITE">
-            <opaqueInsets>
-               <Insets />
-            </opaqueInsets>
             <HBox.margin>
                <Insets right="350.0" left="10.0" />
             </HBox.margin></Label>
-      <Label fx:id="timerLabelN" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
-
+        <StackPane>
+        <Rectangle width="100" height="40" arcWidth="10" arcHeight="10" fill="BLACK"/>
+            <Label fx:id="timerLabelN" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
+        </StackPane>
     </HBox>
+
+
 
     <!-- Création de l'échiquier 8x8 -->
     <GridPane fx:id="chessBoard">
@@ -138,10 +139,12 @@
         </ImageView>
       <Label text="Zakharia" textFill="WHITE">
             <HBox.margin>
-               <Insets right="350.0" left="10.0" />
+               <Insets right="334.0" left="10.0" />
             </HBox.margin></Label>
-        <Label fx:id="timerLabelB" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
-
+        <StackPane>
+        <Rectangle width="100" height="40" arcWidth="10" arcHeight="10" fill="WHITE"/>
+            <Label fx:id="timerLabelB" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="BLACK"> </Label>
+        </StackPane>
     </HBox>
 
   </VBox>

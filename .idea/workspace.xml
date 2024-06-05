@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +142,7 @@
       <workItem from="1717500353960" duration="1218000" />
       <workItem from="1717508438207" duration="6547000" />
       <workItem from="1717568285797" duration="852000" />
-      <workItem from="1717569143762" duration="2833000" />
+      <workItem from="1717569143762" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="merge fini">
       <created>1717506744605</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717570559288</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ajout des bouton et fonction pour lancer/arreter le temps">
+      <created>1717572083441</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717572083441</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +213,7 @@
     <MESSAGE value="les 2 timer dont fonctionel + set on action sur les 2 menu et le bouton jouer" />
     <MESSAGE value="fin de session" />
     <MESSAGE value="ajout photo de profil, correction affichage label timer quand on selectionne le temps" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout photo de profil, correction affichage label timer quand on selectionne le temps" />
+    <MESSAGE value="ajout des bouton et fonction pour lancer/arreter le temps" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des bouton et fonction pour lancer/arreter le temps" />
   </component>
 </project>
