@@ -38,173 +38,173 @@
     <GridPane fx:id="chessBoard">
       <children>
         <!-- Création des cases de l'échiquier -->
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="0" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="0" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="0" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="0" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="0" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="0" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case00" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case10" fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case20" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case30" fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case40" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case50" fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case60" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+        <Rectangle fx:id="case70" fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="0" />
 
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case01" fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case11" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case21" fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case31" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case41" fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case51" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case61" fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+        <Rectangle fx:id="case71" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="1" />
 
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case02" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case12" fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case22" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case32" fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case42" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case52" fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case62" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+        <Rectangle fx:id="case72" fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="2" />
 
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="3" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case03" fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case13" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case23" fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case33" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case43" fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case53" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case63" fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+        <Rectangle fx:id="case73" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="3" />
 
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="4" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case04" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case14" fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case24" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case34" fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case44" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case54" fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case64" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+        <Rectangle fx:id="case74" fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="4" />
 
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="5" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case05" fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case15" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case25" fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case35" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case45" fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case55" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case65" fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+        <Rectangle fx:id="case75" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="5" />
 
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="6" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="6" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case06" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case16" fill="#739552" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case26" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case36" fill="#739552" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case46" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case56" fill="#739552" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case66" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+        <Rectangle fx:id="case76" fill="#739552" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="6" />
 
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="7" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="7" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="7" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="7" />
-        <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="7" />
-        <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case07" fill="#739552" height="60" width="60" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case17" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case27" fill="#739552" height="60" width="60" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case37" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case47" fill="#739552" height="60" width="60" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case57" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case67" fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+        <Rectangle fx:id="case77" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="7" />
           <!-- placer pions noirs -->
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="br1" GridPane.rowIndex="0" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
               <Image url="@/br.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bn1" GridPane.rowIndex="0" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
               <Image url="@/bn.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bb1" GridPane.rowIndex="0" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
               <Image url="@/bb.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bq" GridPane.rowIndex="0" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
               <Image url="@/bq.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bk" GridPane.rowIndex="0" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
               <Image url="@/bk.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bb2" GridPane.rowIndex="0" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
               <Image url="@/bb.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bn2" GridPane.rowIndex="0" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
               <Image url="@/bn.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="br2" GridPane.rowIndex="0" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
               <Image url="@/br.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp1" GridPane.rowIndex="1" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp2" GridPane.rowIndex="1" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp3" GridPane.rowIndex="1" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp4" GridPane.rowIndex="1" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp5" GridPane.rowIndex="1" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp6" GridPane.rowIndex="1" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp7" GridPane.rowIndex="1" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="bp8" GridPane.rowIndex="1" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
               <Image url="@/bp.png"/>
           </ImageView>
           <!-- placer pions blancs -->
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wr1" GridPane.rowIndex="7" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
               <Image url="@/wr.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wn1" GridPane.rowIndex="7" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
               <Image url="@/wn.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wb1" GridPane.rowIndex="7" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
               <Image url="@/wb.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
-              <Image url="@/wk.png"/>
-          </ImageView>
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wq" GridPane.rowIndex="7" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
               <Image url="@/wq.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wk" GridPane.rowIndex="7" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+              <Image url="@/wk.png"/>
+          </ImageView>
+          <ImageView fx:id="wb2" GridPane.rowIndex="7" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
               <Image url="@/wb.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wn2" GridPane.rowIndex="7" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
               <Image url="@/wn.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wr2" GridPane.rowIndex="7" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
               <Image url="@/wr.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp1" GridPane.rowIndex="6" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp2" GridPane.rowIndex="6" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp3" GridPane.rowIndex="6" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp4" GridPane.rowIndex="6" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp5" GridPane.rowIndex="6" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp6" GridPane.rowIndex="6" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp7" GridPane.rowIndex="6" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
-          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+          <ImageView fx:id="wp8" GridPane.rowIndex="6" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
               <Image url="@/wp.png"/>
           </ImageView>
       </children>
