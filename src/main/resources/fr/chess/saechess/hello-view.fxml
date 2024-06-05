@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
-
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
+
 <HBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #262523" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.chess.saechess.HelloController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
@@ -19,12 +19,13 @@
     <!-- Création de nom et Timer 1 -->
     <HBox alignment="CENTER">
         <ImageView fx:id="pdp1" fitWidth="40" fitHeight="40" >
-            <Image url="pdp1.png"/>
+            <Image url="@/pdp1.png"/>
         </ImageView>
-      <Label text="Cedric" textFill="WHITE">
+        <Label text="Cedric" textFill="WHITE">
             <HBox.margin>
                <Insets right="350.0" left="10.0" />
-            </HBox.margin></Label>
+            </HBox.margin>
+        </Label>
         <StackPane>
         <Rectangle width="100" height="40" arcWidth="10" arcHeight="10" fill="BLACK"/>
             <Label fx:id="timerLabelN" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
@@ -108,34 +109,111 @@
         <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="7" />
         <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="7" />
         <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="7" />
-
+          <!-- placer pions noirs -->
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+              <Image url="@/br.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+              <Image url="@/bn.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+              <Image url="@/bb.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
+              <Image url="@/bq.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+              <Image url="@/bk.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+              <Image url="@/bb.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+              <Image url="@/bn.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="0" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+              <Image url="@/br.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="1" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+              <Image url="@/bp.png"/>
+          </ImageView>
+          <!-- placer pions blancs -->
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+              <Image url="@/wr.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+              <Image url="@/wn.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+              <Image url="@/wb.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
+              <Image url="@/wk.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+              <Image url="@/wq.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+              <Image url="@/wb.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+              <Image url="@/wn.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="7" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+              <Image url="@/wr.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="0" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="1" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="2" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="3" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="4" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="5" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="6" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
+          <ImageView GridPane.rowIndex="6" GridPane.columnIndex="7" fitWidth="60" fitHeight="60">
+              <Image url="@/wp.png"/>
+          </ImageView>
       </children>
-         <columnConstraints>
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-         </columnConstraints>
-         <rowConstraints>
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-         </rowConstraints>
     </GridPane>
 
     <!-- Création de nom et Timer 2 -->
     <HBox alignment="CENTER">
         <ImageView fx:id="pdp2" fitWidth="40" fitHeight="40" >
-            <Image url="pdp2.png"/>
+            <Image url="@/pdp2.png"/>
         </ImageView>
       <Label text="Zakharia" textFill="WHITE">
             <HBox.margin>
@@ -150,7 +228,7 @@
   </VBox>
 
     <!-- Création separateur entre droite et gauche -->
-    <Separator style="-fx-background-color: #302e2c;" minHeight="570"/>
+    <Separator orientation="VERTICAL" style="-fx-background-color: Black;"/>
 
 
 

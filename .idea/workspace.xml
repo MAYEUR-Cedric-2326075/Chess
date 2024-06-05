@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wr.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/amuhome/m23004345/IHM/SAE-Chess",
+    "last_opened_file_path": "/amuhome/m23004345/IHM/SAE-Chess/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,7 +155,7 @@
       <workItem from="1717500353960" duration="1218000" />
       <workItem from="1717508438207" duration="6547000" />
       <workItem from="1717568285797" duration="852000" />
-      <workItem from="1717569143762" duration="3920000" />
+      <workItem from="1717569143762" duration="9188000" />
     </task>
     <task id="LOCAL-00001" summary="merge fini">
       <created>1717506744605</created>
@@ -200,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717572083441</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajout de cadre sur les timers">
+      <created>1717573271470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717573271470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +234,7 @@
     <MESSAGE value="fin de session" />
     <MESSAGE value="ajout photo de profil, correction affichage label timer quand on selectionne le temps" />
     <MESSAGE value="ajout des bouton et fonction pour lancer/arreter le temps" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout des bouton et fonction pour lancer/arreter le temps" />
+    <MESSAGE value="ajout de cadre sur les timers" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de cadre sur les timers" />
   </component>
 </project>
