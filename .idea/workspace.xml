@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/pion.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" afterDir="false" />
     </list>
@@ -22,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -33,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2hMdPRLREODR6qkbQaH29LVKvnO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/amuhome/m23004345/IHM/SAE-Chess",
+    "last_opened_file_path": "/amuhome/b23012078/Chess/src/main/resources/fr/chess/saechess",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.chess.saechess.TimerExample" />
+    <configuration name="pion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.chess.saechess.pion" />
       <module name="SAE-Chess" />
       <extension name="coverage">
         <pattern>
@@ -122,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.pion" />
         <item itemvalue="Application.Minuteur" />
         <item itemvalue="Application.ChessGame" />
         <item itemvalue="Application.Minuteur (1)" />
-        <item itemvalue="Application.TimerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +150,8 @@
       <workItem from="1717414672655" duration="6999000" />
       <workItem from="1717500353960" duration="1218000" />
       <workItem from="1717508438207" duration="5575000" />
+      <workItem from="1717514644991" duration="334000" />
+      <workItem from="1717568270853" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="merge fini">
       <created>1717506744605</created>

@@ -6,6 +6,9 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.image.Image?>
 <HBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #262523" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.chess.saechess.HelloController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
@@ -102,7 +105,6 @@
         <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="7" />
         <Rectangle fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="7" />
         <Rectangle fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="7" />
-
       </children>
          <columnConstraints>
             <ColumnConstraints />
@@ -125,6 +127,11 @@
             <RowConstraints />
          </rowConstraints>
     </GridPane>
+      <ImageView fx:id="pawn" layoutX="100.0" layoutY="100.0" fitWidth="10" fitHeight="10" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="pion.png"/>
+          </image>
+      </ImageView>
 
     <!-- Création de nom et Timer 2 -->
     <HBox>
