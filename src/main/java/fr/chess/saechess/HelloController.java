@@ -30,17 +30,24 @@ public class HelloController {
     @FXML
     protected void time1() {
         menu2.setText("10 minutes");
+        timerLabelN.setText("10:00");
+        timerLabelB.setText("10:00");
         secondsRemaining = 600; // 600 = 10 minutes
     }
     @FXML
     protected void time2() {
         menu2.setText("30 minutes");
+        timerLabelN.setText("30:00");
+        timerLabelB.setText("30:00");
         secondsRemaining = 1800; // 1800 = 30 min
     }
+
 
     @FXML
     protected void btnJouer() {
         //lancer une partie
+
+
     }
 
     @FXML
@@ -65,6 +72,7 @@ public class HelloController {
                     }
                 });
             }
+
         }, 0, 1000);
 
 

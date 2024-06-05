@@ -6,6 +6,8 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
 <HBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #262523" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.chess.saechess.HelloController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
@@ -16,12 +18,15 @@
 
     <!-- Création de nom et Timer 1 -->
     <HBox alignment="CENTER">
+        <ImageView fx:id="pdp1" fitWidth="40" fitHeight="40" >
+            <Image url="pdp1.png"/>
+        </ImageView>
       <Label text="Cedric" textFill="WHITE">
             <opaqueInsets>
                <Insets />
             </opaqueInsets>
             <HBox.margin>
-               <Insets right="400.0" />
+               <Insets right="350.0" left="10.0" />
             </HBox.margin></Label>
       <Label fx:id="timerLabelN" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
 
@@ -127,16 +132,24 @@
     </GridPane>
 
     <!-- Création de nom et Timer 2 -->
-    <HBox>
+    <HBox alignment="CENTER">
+        <ImageView fx:id="pdp2" fitWidth="40" fitHeight="40" >
+            <Image url="pdp2.png"/>
+        </ImageView>
       <Label text="Zakharia" textFill="WHITE">
             <HBox.margin>
-               <Insets right="400.0" />
+               <Insets right="350.0" left="10.0" />
             </HBox.margin></Label>
         <Label fx:id="timerLabelB" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
 
     </HBox>
 
   </VBox>
+
+    <!-- Création separateur entre droite et gauche -->
+    <Separator style="-fx-background-color: #302e2c;" minHeight="570"/>
+
+
 
   <!-- Création partie droite de page accueil -->
   <VBox alignment="TOP_CENTER">
