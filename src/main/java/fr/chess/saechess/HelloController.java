@@ -4,7 +4,7 @@ import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.SplitMenuButton;
-import javafx.scene.shape.Circle;
+
 import javafx.scene.image.ImageView;
 
 import java.util.Timer;
@@ -75,9 +75,10 @@ public class HelloController {
                 });
             }
         }, 0, 1000);
-        // Initialize the pawn
+        // Initialize the pawn qui est le pion
         initializePawn(pawn);
     }
+    //déplacement des pion en maitenant le clique de la souris
     private void initializePawn(ImageView pawn) {
         pawn.setOnMousePressed(event -> pawn.setOpacity(0.5));
         pawn.setOnMouseReleased(event -> pawn.setOpacity(1));
@@ -86,6 +87,7 @@ public class HelloController {
             pawn.setY(event.getY() - pawn.getFitHeight() / 2);
         });
     }
+
 
 
 

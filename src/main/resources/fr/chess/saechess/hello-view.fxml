@@ -126,11 +126,10 @@
             <RowConstraints />
             <RowConstraints />
          </rowConstraints>
+
     </GridPane>
-      <ImageView fx:id="pawn" layoutX="100.0" layoutY="100.0" fitWidth="10" fitHeight="10" pickOnBounds="true" preserveRatio="true">
-          <image>
-              <Image url="pion.png"/>
-          </image>
+      <ImageView fx:id="pawn" layoutX="100.0" layoutY="100.0" fitWidth="50" fitHeight="50" pickOnBounds="true" preserveRatio="true">
+          <Image url="@pion.png"/>
       </ImageView>
 
     <!-- Création de nom et Timer 2 -->
