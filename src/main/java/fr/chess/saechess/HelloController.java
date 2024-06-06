@@ -2,13 +2,12 @@ package fr.chess.saechess;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.SplitMenuButton;
-import javafx.scene.image.Image;
+import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 
+
+import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -20,6 +19,7 @@ public class HelloController {
     private SplitMenuButton menu1;
     @FXML
     private SplitMenuButton menu2;
+    private Scanner scanner;
 
     @FXML
     protected void pvp() {
@@ -77,8 +77,57 @@ public class HelloController {
     private boolean isRunning = false;
 
 
+    @FXML
+    private ImageView wk;
+    @FXML
+    private ImageView bk;
+
+    @FXML
+    private GridPane chessBoard;
+
     public void initialize() {
 
+    }
+
+    @FXML
+    private TextField textA;
+    @FXML
+    private TextField textF1;
+    @FXML
+    private TextField textF2;
+
+    public void opp1() {
+        wk.setOpacity(0.5);;
+    }
+    public void opp2() {
+        wk.setOpacity(1);
+    }
+
+    public void wkMove() {
+        switch(textA.getText()) {
+            case "z":
+                wk.setTranslateY(wk.getTranslateY()-60);
+                break;
+            case "q":
+                wk.setTranslateX(wk.getTranslateX()-60);
+                break;
+            case "s":
+                wk.setTranslateY(wk.getTranslateY()+60);
+                break;
+            case "d":
+                wk.setTranslateX(wk.getTranslateX()+60);
+                break;
+            default:
+                // code block
+        }
+    }
+    public void btnDeplacer() {
+        String nombre1 = textF1.getText();
+        String nombre2 = textF2.getText();
+        int resultat1 = Integer.parseInt(nombre1);
+        int resultat2 = Integer.parseInt(nombre2);
+        wk.setTranslateX(resultat1*60-300);
+        wk.setTranslateY(-resultat2*60-60+120);
     }
 
     public void startTimer() {
@@ -104,7 +153,6 @@ public class HelloController {
             }
         }, 0, 1000);
     }
-
 
 
 }
