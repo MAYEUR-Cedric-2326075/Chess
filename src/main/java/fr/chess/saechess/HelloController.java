@@ -13,23 +13,25 @@ public class HelloController {
     //set le timer à 10 par défaut
     private int secondsRemaining = 600; // 600 = 10 minutes    /     1800 = 30 min
 
-    //menu mode de jeu et temps de jeu
+    //menu déroulant por choisir le mode de jeu
     @FXML
     private SplitMenuButton menu1;
+    //menu déroulant pour choisir le temps de jeu
     @FXML
     private SplitMenuButton menu2;
 
-    //menu mode de jeu pour changer le texte
+    //changement du texte dans le menu déroulant du mode de jeu
     @FXML
     protected void pvp() {
         menu1.setText("player vs player");
     }
+    //changement du texte dans le menu déroulant du mode de jeu
     @FXML
     protected void pve() {
         menu1.setText("player vs bot");
     }
 
-    //menu temps de jeu pour changer le texte et le temps
+    //menu temps de jeu pour changer le texte et le temps 10 minutes
     @FXML
     protected void time1() {
         menu2.setText("10 minutes");
@@ -37,6 +39,7 @@ public class HelloController {
         timerLabelB.setText("10:00");
         secondsRemaining = 600; // 600 = 10 minutes
     }
+    //menu temps de jeu pour changer le texte et le temps à 30 minutes
     @FXML
     protected void time2() {
         menu2.setText("30 minutes");
@@ -49,12 +52,13 @@ public class HelloController {
     private Timer timer;
     private boolean isRunning = false;
 
-    //fontions des bouton pour controller le timer
+    //fontions du bouton pour lancer le timer
     @FXML
     protected void btnJouer() {
         //lancer le timer
         startTimer();
     }
+    //fontions du bouton pour stoper le timer
     @FXML
     protected void stopTime() {
         //stop le temps
@@ -63,6 +67,7 @@ public class HelloController {
             isRunning = false;
         }
     }
+    //fontions du bouton pour relancer le timer
     @FXML
     protected void TimeResume() {
         //fait reprendre le court du temps
@@ -71,21 +76,24 @@ public class HelloController {
         }
     }
 
-    //Labels pour afficher les timers
+    //Label pour afficher le timer du coté noir
     @FXML
     private Label timerLabelN;
+    //Label pour afficher le timer du coté blanc
     @FXML
     private Label timerLabelB;
 
-    //import roi blanc pour déplacement
+    //import du roi blanc pour déplacement
     @FXML
     private ImageView wk;
 
-    //TExtFields pour les déplacements
+    //TextFields pour les déplacements z,q,s,d
     @FXML
     private TextField textA;
+    //TextFields pour les déplacements par coordonées
     @FXML
     private TextField textF1;
+    //TextFields pour les déplacements par coordonées
     @FXML
     private TextField textF2;
 
@@ -152,6 +160,7 @@ public class HelloController {
         }, 0, 1000);
     }
 
+    //fonction qui ce lance au début du programe
     public void initialize() {
 
     }
