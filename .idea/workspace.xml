@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="ajout des fx-id sur les pièces et les cases">
+    <list default="true" id="5254378d-65a2-4dd3-80b3-e882b2b3d626" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/page2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/page1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/chess/saechess/page1Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/chess/saechess/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/amuhome/m23004345/IHM/Chess",
+    "last_opened_file_path": "/amuhome/m23004345/IHM/cc3-earthquakeapp-gpe4-MAYEUR-Cedric-2326075",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -146,7 +147,7 @@
       <workItem from="1717568285797" duration="852000" />
       <workItem from="1717569143762" duration="12954000" />
       <workItem from="1717673557816" duration="13631000" />
-      <workItem from="1717752492702" duration="1326000" />
+      <workItem from="1717752492702" duration="2261000" />
     </task>
     <task id="LOCAL-00001" summary="merge fini">
       <created>1717506744605</created>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717579895264</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="netoyage du code et commentaire">
+      <created>1717753840953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717753840953</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +261,7 @@
     <MESSAGE value="ajout de cadre sur les timers" />
     <MESSAGE value="placement des pion sur l'échiquier + corection séparator" />
     <MESSAGE value="ajout des fx-id sur les pièces et les cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout des fx-id sur les pièces et les cases" />
+    <MESSAGE value="netoyage du code et commentaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="netoyage du code et commentaire" />
   </component>
 </project>
