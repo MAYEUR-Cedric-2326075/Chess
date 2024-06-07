@@ -5,22 +5,21 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
-
-
-import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class HelloController {
 
+    //set le timer à 10 par défaut
     private int secondsRemaining = 600; // 600 = 10 minutes    /     1800 = 30 min
 
+    //menu mode de jeu et temps de jeu
     @FXML
     private SplitMenuButton menu1;
     @FXML
     private SplitMenuButton menu2;
-    private Scanner scanner;
 
+    //menu mode de jeu pour changer le texte
     @FXML
     protected void pvp() {
         menu1.setText("player vs player");
@@ -30,6 +29,7 @@ public class HelloController {
         menu1.setText("player vs bot");
     }
 
+    //menu temps de jeu pour changer le texte et le temps
     @FXML
     protected void time1() {
         menu2.setText("10 minutes");
@@ -45,6 +45,16 @@ public class HelloController {
         secondsRemaining = 1800; // 1800 = 30 min
     }
 
+    //variables pour le timer
+    private Timer timer;
+    private boolean isRunning = false;
+
+    //fontions des bouton pour controller le timer
+    @FXML
+    protected void btnJouer() {
+        //lancer le timer
+        startTimer();
+    }
     @FXML
     protected void stopTime() {
         //stop le temps
@@ -53,13 +63,6 @@ public class HelloController {
             isRunning = false;
         }
     }
-
-    @FXML
-    protected void btnJouer() {
-        //lancer une partie
-        startTimer();
-    }
-
     @FXML
     protected void TimeResume() {
         //fait reprendre le court du temps
@@ -68,27 +71,17 @@ public class HelloController {
         }
     }
 
+    //Labels pour afficher les timers
     @FXML
     private Label timerLabelN;
     @FXML
     private Label timerLabelB;
 
-    private Timer timer;
-    private boolean isRunning = false;
-
-
+    //import roi blanc pour déplacement
     @FXML
     private ImageView wk;
-    @FXML
-    private ImageView bk;
 
-    @FXML
-    private GridPane chessBoard;
-
-    public void initialize() {
-
-    }
-
+    //TExtFields pour les déplacements
     @FXML
     private TextField textA;
     @FXML
@@ -96,13 +89,15 @@ public class HelloController {
     @FXML
     private TextField textF2;
 
+    //fonctions pour l'oppacité quand pion séléctionner
     public void opp1() {
-        wk.setOpacity(0.5);;
+        wk.setOpacity(0.5);
     }
     public void opp2() {
         wk.setOpacity(1);
     }
 
+    //faire bouger le roi blanc avec z,q,s,d
     public void wkMove() {
         switch(textA.getText()) {
             case "z":
@@ -118,9 +113,11 @@ public class HelloController {
                 wk.setTranslateX(wk.getTranslateX()+60);
                 break;
             default:
-                // code block
+                System.out.println("touche non valide");
         }
     }
+
+    //déplacement roi blanc avec coordonnées du plateau
     public void btnDeplacer() {
         String nombre1 = textF1.getText();
         String nombre2 = textF2.getText();
@@ -130,8 +127,9 @@ public class HelloController {
         wk.setTranslateY(-resultat2*60-60+120);
     }
 
+    //fonction pour lancer le timer
     public void startTimer() {
-        if (isRunning) return; // Avoid starting multiple timers
+        if (isRunning) return;
 
         timer = new Timer();
         isRunning = true;
@@ -154,5 +152,8 @@ public class HelloController {
         }, 0, 1000);
     }
 
+    public void initialize() {
+
+    }
 
 }

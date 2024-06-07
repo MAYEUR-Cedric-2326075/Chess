@@ -26,13 +26,12 @@
                <Insets right="350.0" left="10.0" />
             </HBox.margin>
         </Label>
+        <!-- Timer noir -->
         <StackPane>
-        <Rectangle width="100" height="40" arcWidth="10" arcHeight="10" fill="BLACK"/>
+            <Rectangle width="100" height="40" arcWidth="10" arcHeight="10" fill="BLACK"/>
             <Label fx:id="timerLabelN" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="WHITE"> </Label>
         </StackPane>
     </HBox>
-
-
 
     <!-- Création de l'échiquier 8x8 -->
     <GridPane fx:id="chessBoard">
@@ -109,6 +108,7 @@
         <Rectangle fx:id="case57" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="5" GridPane.rowIndex="7" />
         <Rectangle fx:id="case67" fill="#739552" height="60" width="60" GridPane.columnIndex="6" GridPane.rowIndex="7" />
         <Rectangle fx:id="case77" fill="#EBECD0" height="60" width="60" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+          <!-- Création des numéros de l'échiquier -->
           <Label text="8" GridPane.columnIndex="0" GridPane.rowIndex="0"></Label>
           <Label text="7" GridPane.columnIndex="0" GridPane.rowIndex="1"></Label>
           <Label text="6" GridPane.columnIndex="0" GridPane.rowIndex="2"></Label>
@@ -232,22 +232,22 @@
         <ImageView fx:id="pdp2" fitWidth="40" fitHeight="40" >
             <Image url="@/pdp2.png"/>
         </ImageView>
-      <Label text="Zakharia" textFill="WHITE">
+        <Label text="Zakharia" textFill="WHITE">
             <HBox.margin>
                <Insets right="334.0" left="10.0" />
-            </HBox.margin></Label>
+            </HBox.margin>
+        </Label>
+        <!-- Timer blanc -->
         <StackPane>
-        <Rectangle width="100" height="40" arcWidth="10" arcHeight="10" fill="WHITE"/>
-            <Label fx:id="timerLabelB" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="BLACK"> </Label>
+            <Rectangle width="100" height="40" arcWidth="10" arcHeight="10" fill="WHITE"/>
+            <Label fx:id="timerLabelB" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="10:00" textFill="BLACK"/>
         </StackPane>
     </HBox>
 
   </VBox>
 
-    <!-- Création separateur entre droite et gauche -->
-    <Separator orientation="VERTICAL" style="-fx-background-color: Black;"/>
-
-
+  <!-- Création separateur entre droite et gauche -->
+  <Separator orientation="VERTICAL" style="-fx-background-color: Black;"/>
 
   <!-- Création partie droite de page accueil -->
   <VBox alignment="TOP_CENTER">
@@ -256,7 +256,8 @@
           <Label text="Parties" textFill="WHITE">
             <HBox.margin>
                <Insets left="20.0" right="20.0" />
-            </HBox.margin></Label>
+            </HBox.margin>
+          </Label>
           <Label text="Joueurs" textFill="WHITE" />
          <VBox.margin>
             <Insets bottom="30.0" />
@@ -268,7 +269,8 @@
          </padding>
          <font>
             <Font name="Abyssinica SIL" size="17.0" />
-         </font></Label>
+         </font>
+    </Label>
 
     <SplitMenuButton fx:id="menu1" style="-fx-background-color: Grey;" text="choisir un mode de jeux ">
       <items>
@@ -287,13 +289,15 @@
          </VBox.margin>
       </SplitMenuButton>
 
+    <!-- Boutons -->
     <Button onAction="#btnJouer" alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Jouer" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Arimo Bold" size="26.0" />
          </font>
          <VBox.margin>
             <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
-         </VBox.margin></Button>
+         </VBox.margin>
+    </Button>
 
       <Button onAction="#stopTime" alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Stop" textAlignment="CENTER" textFill="WHITE">
           <font>
@@ -301,7 +305,8 @@
           </font>
           <VBox.margin>
               <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
-          </VBox.margin></Button>
+          </VBox.margin>
+      </Button>
 
       <Button onAction="#TimeResume" alignment="TOP_CENTER" contentDisplay="TOP" prefWidth="112.0" style="-fx-background-color: #80b54c" text="Reprise" textAlignment="CENTER" textFill="WHITE">
           <font>
@@ -309,15 +314,12 @@
           </font>
           <VBox.margin>
               <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
-          </VBox.margin></Button>
+          </VBox.margin>
+      </Button>
+      <!-- TextField pour les déplacements -->
       <TextField fx:id="textA" promptText="z,q,s,d"></TextField>
       <TextField fx:id="textF2" promptText="ligne"></TextField>
       <TextField fx:id="textF1" promptText="colonne"></TextField>
       <Button text="Valider" onAction="#btnDeplacer"></Button>
-
-
-
-
   </VBox>
-
 </HBox>
