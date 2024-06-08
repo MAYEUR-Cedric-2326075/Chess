@@ -8,7 +8,7 @@ import javafx.scene.layout.GridPane;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class HelloController {
+public class ChessController {
 
     //set le timer à 10 par défaut
     private int secondsRemaining = 600; // 600 = 10 minutes    /     1800 = 30 min
