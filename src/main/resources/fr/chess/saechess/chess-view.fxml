@@ -23,7 +23,7 @@
         </ImageView>
         <Label text="Cedric" textFill="WHITE">
             <HBox.margin>
-               <Insets right="350.0" left="10.0" />
+               <Insets right="296.0" left="10.0" />
             </HBox.margin>
         </Label>
         <!-- Timer noir -->
@@ -234,7 +234,7 @@
         </ImageView>
         <Label text="Zakharia" textFill="WHITE">
             <HBox.margin>
-               <Insets right="334.0" left="10.0" />
+               <Insets right="284.0" left="10.0" />
             </HBox.margin>
         </Label>
         <!-- Timer blanc -->
